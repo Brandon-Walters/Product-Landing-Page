@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header id="header">
+        <img src="logo.png" id="header-img" alt="Company Logo">
+        <nav id="nav-bar">
+            <ul class="flex-container">
+                <li><a href="#form" class="nav-link">Features</a></li>
+                <li><a href="#video" class="nav-link">How It Works</a></li>
+                <li><a href="#price-cards" class="nav-link">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Welcome to Our Product Landing Page</h1>
+            <p>Discover the perfect solution for all your needs.</p>
+            <a href="#form" class="cta-btn">Get Started</a>
+        </section>
+        <section id="email-form-section">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay up-to-date with our latest news and updates.</p>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" id="submit" value="Subscribe">
+            </form>
+        </section>
+        <section id="video-section">
+            <h2>How It Works</h2>
+            <iframe src="https://www.youtube.com/embed/bm1gvMDqA6M" id="video" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a team of passionate individuals dedicated to providing innovative solutions for our customers.</p>
+        </section>
+        <section id="price-cards">
+            <h2>Pricing</h2>
+            <div class="price-card">
+                <h3>Basic</h3>
+                <p>Get started with our basic package that covers all essential features.</p>
+                <span>$19.99</span>
+            </div>
+            <div class="price-card">
+                <h3>Pro</h3>
+                <p>Upgrade to our pro package for advanced features and premium support.</p>
+                <span>$39.99</span>
+            </div>
+            <div class="price-card">
+                <h3>Premium</h3>
+                <p>Unlock the full potential of our product with our premium package.</p>
+                <span>$59.99</span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Product Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
